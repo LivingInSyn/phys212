@@ -6,7 +6,7 @@ I = 0.25
 B = 1.3
 
 
-A = sqrt(3) * d**2/4
+A = (sqrt(3)/4) * (d**2) 
 mu = I * A
 
-print(- mu * B * cos( radians(180)))
+print( mu * B * (cos( radians(180)) - 1))
